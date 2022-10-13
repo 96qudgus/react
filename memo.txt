@@ -1,0 +1,8 @@
+import { Route, Routes, Link, useNavigate, Outlet } from 'react-router-dom';
+1. Route => 페이지 주소 설정
+2. Routes => Route를 묶음
+3. Link => 페이지 이동 설정
+4. useNavigate => 페이지 이동 설정 함수. navigate('URL' 혹은 숫자);
+- 양수(1, 2)는 앞으로 이동
+- 음수(-1, -2)는 뒤로 이동
+- Link처럼 특정 주소로 이동도 가능.
